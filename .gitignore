@@ -1,0 +1,25 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Cobertura y cache de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de sistema e IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Documento interno de trabajo para elaborar el PDF entregable y archivos de apoyo
+INFORME_TECNICO_MODULO1.md
+_entrega_alexandra/
+
+
