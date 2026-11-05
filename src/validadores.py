@@ -62,7 +62,7 @@ def validar_entero_positivo(valor: int, nombre_campo: str) -> int:
     Valida que un valor sea estrictamente un número entero positivo (> 0).
     Nota: En Python bool es subclase de int, por lo que se excluye explícitamente.
     """
-    if not isinstance(valor, int):
+    if isinstance(valor, bool) or not isinstance(valor, int):
         raise ErrorValidacionTarea(
             f"El campo '{nombre_campo}' debe ser un número entero."
         )
